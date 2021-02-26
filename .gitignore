@@ -146,6 +146,6 @@ dmypy.json
 .vscode
 
 # pickle ML model
-data/model.pkl
+data/*.pkl
 
 # End of https://www.toptal.com/developers/gitignore/api/python
