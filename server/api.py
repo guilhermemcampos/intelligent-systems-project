@@ -20,7 +20,17 @@ schema = {
         'products': {
             'type': 'array',
             'minItems': 1,
-            
+            'items':{
+                'type':'object',
+                'properties':{
+                    'title':{
+                        'type': 'string',
+                        "minLength": 1
+                    }
+                },
+                'required': ['title']
+                
+            }
         },
     },
     'required': ['products']
